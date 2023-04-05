@@ -19,7 +19,8 @@
     <?php
       //  echo("Para abrir cole no navegador LOCALHOST:8080/PHP-1/tabuada.php");
         $valor = $_POST["valor"];
-
+        $name = $_POST["name"];
+        echo("Seu nome é $name");
       for($x=1;$x<=10;$x++)
       {
         $resultado = ($valor * $x);
